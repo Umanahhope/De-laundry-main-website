@@ -452,12 +452,26 @@ header{
                 }
 
                 button{
-                  width: 40%;
+                 
+                  width: 50%;
                   max-width: 100px;
                   padding: 10px 20px;
                   border-radius: 5px;
                   border: 1px solid rgba(0, 0, 0, 0.2);
                 }
+
+                 #confirm {
+                  display: inline-flex;
+                  align-items: center;
+                }
+
+                 #confirm i {
+                 margin-left: 5px; /* Adjust the value as needed */
+                }
+
+                
+  
+
               }
             }
 
